@@ -9,7 +9,7 @@ import {
 import { FeedbackType } from "../types";
 import { useState } from "react";
 import ReactMarkdown from "react-markdown";
-import { DanswerDocument } from "@/lib/search/interfaces";
+import { MaxiAiDocument } from "@/lib/search/interfaces";
 import { SearchSummary, ShowHideDocsButton } from "./SearchSummary";
 import { SourceIcon } from "@/components/SourceIcon";
 import { ThreeDots } from "react-loader-spinner";
@@ -48,7 +48,7 @@ export const AIMessage = ({
   content: string | JSX.Element;
   query?: string;
   personaName?: string;
-  citedDocuments?: [string, DanswerDocument][] | null;
+  citedDocuments?: [string, MaxiAiDocument][] | null;
   isComplete?: boolean;
   hasDocs?: boolean;
   handleFeedback?: (feedbackType: FeedbackType) => void;
@@ -71,7 +71,7 @@ export const AIMessage = ({
             </div>
 
             <div className="font-bold text-emphasis ml-2 my-auto">
-              {personaName || "Danswer"}
+              {personaName || "MaxiAi"}
             </div>
 
             {query === undefined &&

@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { FiRefreshCcw, FiSend, FiStopCircle } from "react-icons/fi";
 import { AIMessage, HumanMessage } from "./message/Messages";
-import { AnswerPiecePacket, DanswerDocument } from "@/lib/search/interfaces";
+import { AnswerPiecePacket, MaxiAiDocument } from "@/lib/search/interfaces";
 import {
   BackendChatSession,
   BackendMessage,
@@ -38,7 +38,7 @@ import { buildFilters } from "@/lib/search/utils";
 import { SelectedDocuments } from "./modifiers/SelectedDocuments";
 import { usePopup } from "@/components/admin/connectors/Popup";
 import { ResizableSection } from "@/components/resizable/ResizableSection";
-import { DanswerInitializingLoader } from "@/components/DanswerInitializingLoader";
+import { MaxiAiInitializingLoader } from "@/components/MaxiAiInitializingLoader";
 import { ChatIntro } from "./ChatIntro";
 import { HEADER_PADDING } from "@/lib/constants";
 import { computeAvailableFilters } from "@/lib/filters";
@@ -349,7 +349,7 @@ export const Chat = ({
       selectedDocuments.length > 0
         ? RetrievalType.SelectedDocs
         : RetrievalType.None;
-    let documents: DanswerDocument[] = selectedDocuments;
+    let documents: MaxiAiDocument[] = selectedDocuments;
     let error: string | null = null;
     let finalMessage: BackendMessage | null = null;
     try {
@@ -866,7 +866,7 @@ export const Chat = ({
       ) : (
         <div className="mx-auto h-full flex flex-col">
           <div className="my-auto">
-            <DanswerInitializingLoader />
+            <MaxiAiInitializingLoader />
           </div>
         </div>
       )}

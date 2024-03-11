@@ -1,8 +1,8 @@
-import { DanswerDocument, SearchRequestArgs } from "./interfaces";
+import { MaxiAiDocument, SearchRequestArgs } from "./interfaces";
 
 interface KeywordResponse {
-  top_ranked_docs: DanswerDocument[];
-  lower_ranked_docs: DanswerDocument[];
+  top_ranked_docs: MaxiAiDocument[];
+  lower_ranked_docs: MaxiAiDocument[];
 }
 
 export const keywordSearch = async ({

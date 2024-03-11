@@ -1,4 +1,4 @@
-import { DanswerDocument } from "@/lib/search/interfaces";
+import { MaxiAiDocument } from "@/lib/search/interfaces";
 import { Text } from "@tremor/react";
 import { ChatDocumentDisplay } from "./ChatDocumentDisplay";
 import { usePopup } from "@/components/admin/connectors/Popup";
@@ -35,8 +35,8 @@ export function DocumentSidebar({
   isLoading,
 }: {
   selectedMessage: Message | null;
-  selectedDocuments: DanswerDocument[] | null;
-  toggleDocumentSelection: (document: DanswerDocument) => void;
+  selectedDocuments: MaxiAiDocument[] | null;
+  toggleDocumentSelection: (document: MaxiAiDocument) => void;
   clearSelectedDocuments: () => void;
   selectedDocumentTokens: number;
   maxTokens: number;
