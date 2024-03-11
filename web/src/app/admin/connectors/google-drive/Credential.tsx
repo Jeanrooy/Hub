@@ -249,7 +249,7 @@ export const DriveJsonUploadSection = ({
         <a
           className="text-link"
           target="_blank"
-          href="https://docs.danswer.dev/connectors/google_drive#authorization"
+          href="https://docshub.maxiai.co.za/connectors/google_drive#authorization"
         >
           here
         </a>{" "}

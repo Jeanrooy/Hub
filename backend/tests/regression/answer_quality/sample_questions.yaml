@@ -9,7 +9,7 @@ metadata:
     - name: web
       detail: https://www.danswer.ai/
     - name: web
-      detail: https://docs.danswer.dev/
+      detail: https://docshub.maxiai.co.za/
     - name: github issues
       detail: danswer-ai/danswer
     - name: github pull-requests
@@ -38,12 +38,12 @@ questions:
   - id: 4
     question: "Why might I want to use the deberta model for QnA?"
     expected_answer: "This kind of model can run on CPU and are less likely to produce hallucinations"
-    notes: "https://docs.danswer.dev/gen_ai_configs/transformers, this is a pretty hard question"
+    notes: "https://docshub.maxiai.co.za/gen_ai_configs/transformers, this is a pretty hard question"
 
   - id: 5
     question: "What auth related tokens do I need for BookStack?"
     expected_answer: "You will need the API Token ID and the API Token Secret"
-    notes: "https://docs.danswer.dev/connectors/bookstack"
+    notes: "https://docshub.maxiai.co.za/connectors/bookstack"
 
   - id: 6
     question: "ValueError: invalid literal for int() with base 10"

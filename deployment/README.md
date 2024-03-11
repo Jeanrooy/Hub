@@ -17,7 +17,7 @@ production deployment but there are a few caveats.
 
 All the features of Danswer are fully available regardless of the deployment option.
 
-For information on setting up connectors, check out https://docs.danswer.dev/connectors/overview
+For information on setting up connectors, check out https://docshub.maxiai.co.za/connectors/overview
 
 
 ## Docker Compose:

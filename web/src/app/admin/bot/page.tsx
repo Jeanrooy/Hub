@@ -212,7 +212,7 @@ const Main = () => {
         Follow the{" "}
         <a
           className="text-blue-500"
-          href="https://docs.danswer.dev/slack_bot_setup"
+          href="https://docshub.maxiai.co.za/slack_bot_setup"
           target="_blank"
         >
           guide{" "}

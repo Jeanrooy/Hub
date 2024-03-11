@@ -152,7 +152,7 @@ export function _WelcomeModal() {
               self-hosted open-source LLMs. For more details, check out the{" "}
               <a
                 className="text-link"
-                href="https://docs.danswer.dev/gen_ai_configs/overview"
+                href="https://docshub.maxiai.co.za/gen_ai_configs/overview"
               >
                 documentation
               </a>

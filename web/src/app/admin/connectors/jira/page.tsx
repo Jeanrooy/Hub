@@ -135,7 +135,7 @@ const Main = () => {
             To use the Jira connector, first follow the guide{" "}
             <a
               className="text-link"
-              href="https://docs.danswer.dev/connectors/jira#setting-up"
+              href="https://docshub.maxiai.co.za/connectors/jira#setting-up"
               target="_blank"
             >
               here

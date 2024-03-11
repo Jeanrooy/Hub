@@ -144,7 +144,7 @@ const Main = () => {
             To use the Confluence connector, first follow the guide{" "}
             <a
               className="text-link"
-              href="https://docs.danswer.dev/connectors/confluence#setting-up"
+              href="https://docshub.maxiai.co.za/connectors/confluence#setting-up"
               target="_blank"
             >
               here

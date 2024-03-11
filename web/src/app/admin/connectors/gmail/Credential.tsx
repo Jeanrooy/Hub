@@ -245,7 +245,7 @@ export const GmailJsonUploadSection = ({
         <a
           className="text-link"
           target="_blank"
-          href="https://docs.danswer.dev/connectors/gmail#authorization"
+          href="https://docshub.maxiai.co.za/connectors/gmail#authorization"
         >
           here
         </a>{" "}

@@ -109,7 +109,7 @@ const Main = () => {
             To use the Slab connector, first follow the guide{" "}
             <a
               className="text-link"
-              href="https://docs.danswer.dev/connectors/slab"
+              href="https://docshub.maxiai.co.za/connectors/slab"
               target="_blank"
             >
               here

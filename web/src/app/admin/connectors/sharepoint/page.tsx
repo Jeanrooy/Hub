@@ -107,7 +107,7 @@ const MainSection = () => {
             (tenant) ID, and Client Secret. You can follow the guide{" "}
             <a
               target="_blank"
-              href="https://docs.danswer.dev/connectors/sharepoint"
+              href="https://docshub.maxiai.co.za/connectors/sharepoint"
               className="text-link"
             >
               here

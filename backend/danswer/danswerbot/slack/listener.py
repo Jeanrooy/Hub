@@ -344,7 +344,7 @@ def process_slack_event(client: SocketModeClient, req: SocketModeRequest) -> Non
 
 def _get_socket_client(slack_bot_tokens: SlackBotTokens) -> SocketModeClient:
     # For more info on how to set this up, checkout the docs:
-    # https://docs.danswer.dev/slack_bot_setup
+    # https://docshub.maxiai.co.za/slack_bot_setup
     return SocketModeClient(
         # This app-level token will be used only for establishing a connection
         app_token=slack_bot_tokens.app_token,
@@ -360,7 +360,7 @@ def _initialize_socket_client(socket_client: SocketModeClient) -> None:
     socket_client.connect()
 
 
-# Follow the guide (https://docs.danswer.dev/slack_bot_setup) to set up
+# Follow the guide (https://docshub.maxiai.co.za/slack_bot_setup) to set up
 # the slack bot in your workspace, and then add the bot to any channels you want to
 # try and answer questions for. Running this file will setup Danswer to listen to all
 # messages in those channels and attempt to answer them. As of now, it will only respond

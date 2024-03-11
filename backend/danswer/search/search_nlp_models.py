@@ -365,7 +365,7 @@ def warm_up_models(
 ) -> None:
     warm_up_str = (
         "Danswer is amazing! Check out our easy deployment guide at "
-        "https://docs.danswer.dev/quickstart"
+        "https://docshub.maxiai.co.za/quickstart"
     )
 
     get_default_tokenizer(model_name=model_name)(warm_up_str)

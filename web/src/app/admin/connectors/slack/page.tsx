@@ -104,7 +104,7 @@ const MainSection = () => {
             details on setting up the MaxiAi Slack App, see the{" "}
             <a
               className="text-blue-500"
-              href="https://docs.danswer.dev/connectors/slack#setting-up"
+              href="https://docshub.maxiai.co.za/connectors/slack#setting-up"
             >
               docs
             </a>
